@@ -1,0 +1,27 @@
+# Visual Studio
+.vs/
+*.vcxproj.user
+*.suo
+
+# Carpetas de compilación
+x64/
+x86/
+Debug/
+Release/
+bin/
+obj/
+
+# Archivos compilados
+*.exe
+*.obj
+*.pdb
+*.ilk
+*.lib
+*.dll
+
+# Archivos temporales de Visual Studio
+*.VC.db
+*.VC.VC.opendb
+
+# Carpetas generadas
+Progra1.ef4b6360/
