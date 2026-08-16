@@ -139,11 +139,17 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Administrador.cpp" />
+    <ClCompile Include="Desarrollador.cpp" />
     <ClCompile Include="Empleado.cpp" />
     <ClCompile Include="Progra1.Lab1 SistemaEmpleadoPOO.cpp" />
+    <ClCompile Include="TecnicoSoporte.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Administrador.h" />
+    <ClInclude Include="desarrollador.h" />
     <ClInclude Include="Empleado.h" />
+    <ClInclude Include="TecnicoSoporte.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -26,3 +26,6 @@ void Empleado::mostrarInformacion() const {
 	std::cout << "Nombre: " << nombre << std::endl;
 	std::cout << "Área: " << area << std::endl;
 }
+void Empleado::trabajar() const {
+	std::cout << getNombre() << ", esta trabajando en " << getArea() << std::endl;
+}

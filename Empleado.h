@@ -15,4 +15,7 @@ public:
 	void setArea(std::string nuevaArea);
 
 	void mostrarInformacion() const;
+
+	virtual void trabajar() const; 
+	virtual ~Empleado() = default;
 };
